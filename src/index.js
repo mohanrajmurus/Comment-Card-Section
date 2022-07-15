@@ -11,6 +11,7 @@ const App = () =>{
             <Comment time = '12.30 PM'/>
             <Comment time = '03.25 PM'/>
             <Comment time = '06.10 PM'/>
+            <Comment time = '08.22 PM'/>
         </div>
     );
 }
