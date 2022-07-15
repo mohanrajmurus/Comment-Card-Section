@@ -1,0 +1,9 @@
+.comment{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid steelblue;
+    border-radius: 20px;
+    padding: 10px;
+}
