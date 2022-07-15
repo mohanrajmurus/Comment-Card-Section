@@ -6,8 +6,11 @@ import { faker } from '@faker-js/faker';
 
 const App = () =>{
     return (
-        <div>
-            <Comment time = '7.00'/>
+        <div className='container'>
+            <Comment time = '03.00 AM'/>
+            <Comment time = '12.30 PM'/>
+            <Comment time = '03.25 PM'/>
+            <Comment time = '06.10 PM'/>
         </div>
     );
 }

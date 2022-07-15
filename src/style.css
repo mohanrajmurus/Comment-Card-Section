@@ -1,4 +1,15 @@
+.container{
+    max-width: 560px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
 .comment{
+    width:100%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -6,4 +17,24 @@
     border: 2px solid steelblue;
     border-radius: 20px;
     padding: 10px;
+}
+.avatar img{
+    width: 100px;
+    border-radius:10px;
+}
+
+.name-time{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name{
+    font-size: x-large;
+    font-weight: bold;
+}
+.time{
+    opacity: 0.5;
+    font-style: italic;
 }
